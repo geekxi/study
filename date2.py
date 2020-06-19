@@ -1,7 +1,11 @@
+import random
+
+ran = random.randint(1, 10)
 
 while True:
     tmp = None
     num = None
+
     tmp = input("请输入一个数字")
 
     try:
@@ -13,7 +17,7 @@ while True:
     if type(num) == int:
         print("你输入的数字是：", num)
 
-        if num == 8:
+        if num == ran:
             print("恭喜你猜对了")
             break
         else:
