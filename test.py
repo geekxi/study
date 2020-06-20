@@ -1,8 +1,8 @@
-import random
+# import random
 
-n = random.randint(1, 10)
-print(n)
+# n = random.randint(1, 10)
+# print(n)
 
-
-m = sum(1,2) 
-print(m)
+# tmp = input("输入数字")
+# # isinstance(int(tmp))
+# isinstance(tmp, int)
